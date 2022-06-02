@@ -1,0 +1,131 @@
+body {
+    background: url(fundo2.gif);
+    background-size: cover;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+#logo{
+    display: block;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.caixa{
+    display: flex;
+    margin-top: 30px;
+}
+
+.textoBotao{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.recebeTexto{
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    background: black;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.texto{
+    display: block;
+    margin: auto;
+    padding: 10px 20px 50px;
+    width: 80%;
+    background: black;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.aviso{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 17px;
+    color: white;
+    font-style: oblique;
+    background: black;
+    border-radius: 8px;
+
+    margin-top: 5px;
+
+
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 15px;
+}
+
+.bt-pressionado{
+    margin: 0 20px;
+    padding: 15px;
+    width: 40%;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-size: large;
+}
+
+.bt-pressionado:hover{
+    background: rgb(2, 2, 39);
+    color: white;
+    font-weight: bolder;
+    border: 4px solid rgb(13, 196, 13);
+    font-size: 20px;
+    transform: scale(1); 
+}
+
+#bt-copy{
+    margin-top: 10px;
+}
+
+.resultado{
+    padding: 10px 10px;
+    background: black;
+    color: white;
+    border-radius: 8px; 
+    margin-left: 3%;
+    width: 422px;
+    height: auto;
+ 
+}
+
+#boneco{
+    width: 100%;
+    margin: auto;
+}
+
+#textoResultado{
+    float: left;
+    color: white;
+    font-size: x-large;
+    
+}
+
+textarea{
+    width: 415px;
+    background: black;
+    border: none;
+}
+
+footer{
+    text-align: center; 
+    padding: 20px 0;
+    color: white;
+    text-shadow:  2px 2px black;
+}
+
+.copyRight{
+    color: white;
+    margin: 20px 0 0;
+}
+
+

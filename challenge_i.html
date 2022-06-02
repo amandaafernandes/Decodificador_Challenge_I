@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Montserrat:wght@100&display=swap">
+        <title> Encripitador Alura</title>
+    </head>
+    <body>
+        <header>
+                <img src="logo.png" id="logo">
+        </header>
+
+        <main>
+        <div class="caixa">
+            <div class="textoBotao">
+                <div class="recebeTexto">
+                    <input class="texto" id="texto2" type="text" placeholder="Digite o texto.">
+                </div>
+
+                <p class="aviso"> Somete letra minuscula e sem acentuação</p>
+
+                <div class="botao">
+                    <button type="button" class="bt-pressionado" onclick="encripitar()">Encripitar</button>
+                    <button type="button" class="bt-pressionado" onclick="desencripitar()">Desencripitar</button>
+                    <button type="button" id="bt-copy" class="bt-pressionado" onclick=copy() >Copiar</button>
+                </div>
+            </div>
+            <div class="resultado">
+                <img src="bonequinho.png" id="boneco">
+                <textarea id="textoResultado" name="nome" rows="3" cols="15">Mensagem.</textarea> 
+            </div>
+        </div>        
+        </main>
+        <footer>
+            <p class="copyRight"> &copy; Copyright Amanda Fernandes - 2022</p><br>
+            <p>www.linkedin.com/in/amandaafernandes  -   https://github.com/amandaafernandes</p>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
