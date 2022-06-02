@@ -47,12 +47,12 @@ body {
 .aviso{
     display: inline-block;
     padding: 10px 10px;
+    text-align: center;
     font-size: 17px;
     color: white;
     font-style: oblique;
     background: black;
     border-radius: 8px;
-
     margin-top: 5px;
 
 
@@ -131,11 +131,13 @@ footer{
 footer a{
     color: white;
     margin: 20px 0 0;
+    font-size: mediun;
 }
 
 footer a:hover{
     color: white;
     margin: 20px 0 0;
+    transform: scale(1);
 }
 
 
