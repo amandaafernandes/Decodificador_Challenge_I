@@ -41,7 +41,7 @@
 <h4> Faça o teste, decodifique a frase abaixo:</h4>
 <p> "oberbrimesgaidai penterlai vimessimestai! enterssenter foberimes menterufat primesmenterimesrober traibailhober, enter foberimes fimesnailimeszaidober coberm sufatcenterssober!" </p>
 
-:link: <a href="https://amandaafernandes.github.io/Decodificador_Challenge_I/"> Link do Encriptador. </a>
+:link: <a href= https://amandaafernandes.github.io/Decodificador_Challenge_I> Link do Encriptador. </a>
 
 ## :computer: Ferramentas e Tecnologias utilizadas:
 <li>Javascript;</li> 
